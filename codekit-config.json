@@ -19,12 +19,32 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/pages\/index.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/assets\/pages\/index.html",
+      "outputAbbreviatedPath" : "\/index.html",
       "fileType" : 512
+    },
+    "\/resources\/scripts\/modernizr.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/resources\/scripts\/modernizr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/resources\/scripts\/modernizr-ck.js",
+      "fileType" : 64
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/scripts\/application.coffee" : {
       "ignoreWasSetByUser" : 0,
@@ -38,24 +58,15 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/styles\/style.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/styles\/style.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/style.css",
+      "outputAbbreviatedPath" : "\/resources\/styles\/style.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -75,23 +86,23 @@
     },
     "\/resources\/styles\/style.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/resources\/styles\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/resources\/scripts\/application.js" : {
+    "\/assets\/pages\/includes\/scripts.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/resources\/scripts\/application.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/resources\/scripts\/application-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/pages\/includes\/scripts.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/assets\/pages\/includes\/scripts.html",
+      "fileType" : 512
     },
     "\/assets\/styles\/custom-reset.less" : {
       "ignoreWasSetByUser" : 0,
@@ -106,15 +117,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/resources\/scripts\/html5shiv.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/resources\/scripts\/application.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/resources\/scripts\/html5shiv.js",
+      "inputAbbreviatedPath" : "\/resources\/scripts\/application.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/resources\/scripts\/html5shiv-ck.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/resources\/scripts\/application-ck.js",
       "fileType" : 64
     },
     "\/assets\/styles\/pages\/home.less" : {
@@ -347,7 +358,7 @@
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,
-    "displayValue" : "_template(not git)",
+    "displayValue" : "_template",
     "displayValueWasSetByUser" : 0,
     "compassEnabled" : 0
   }

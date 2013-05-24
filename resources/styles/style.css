@@ -2681,6 +2681,7 @@ textarea {
   ---------------------------------------------------*/
 /*custom*/
 /*=resets*/
+/*override responsive, and grid bootstrap, and browser stylesheet*/
 body {
   margin: 0 !important;
 }
@@ -2693,7 +2694,7 @@ textarea {
     padding: 0;
   }
 }
-/** {
+/*older reset used* {
 	margin:0;
 	padding:0;
 	font-family: arial, sans-serif;
