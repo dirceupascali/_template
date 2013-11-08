@@ -91,6 +91,6 @@ Following files, are delivered
 
 *.html - static html's
 
-resources - all resources, images, pdfs, fonts, stylesheets, scripts
+public - all resources, images, pdfs, fonts, stylesheets, scripts
 
 
