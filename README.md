@@ -1,7 +1,7 @@
 _template
 =========
 
-Template with frameworks, jade, less (included bootstrap less), and coffeescript
+Template with frameworks, jade, less (included bootstrap less).
 
 
 
@@ -18,15 +18,25 @@ Development
 =========
 The folder assets, include files for development, organized by following folders
 
-pages - jade files
+jade - jade files
 
-pages/includes - includes for jade files
+jade/includes - includes for jade files
 
-styles - main files included in style.less (more details below, in Styles section)
+jade/layouts - templates page files
 
-style/pages - style for specific pages/sections
+less - less files
 
-scripts - coffeescript files
+styles.less - main files included in style.less (more details below, in Styles section)
+
+less/assets - style for specific plugins
+
+less/pages - style for specific pages/sections
+
+less/view - styles for specific parts
+
+scripts - javascripts files
+
+styles - converted and compressed css file
 
 
 
@@ -90,7 +100,3 @@ Production
 Following files, are delivered
 
 *.html - static html's
-
-public - all resources, images, pdfs, fonts, stylesheets, scripts
-
-
